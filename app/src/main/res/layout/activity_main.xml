@@ -18,14 +18,17 @@
     <Button
         style="@style/btn"
         android:id="@+id/btn1"
-        android:text="@string/btnmenu1"/>
+        android:text="@string/btnmenu1"
+        android:onClick="affichage"/>
     <Button
         style="@style/btn"
         android:id="@+id/btn2"
-        android:text="@string/btnmenu2"/>
+        android:text="@string/btnmenu2"
+        android:onClick="affichage"/>
     <Button
         style="@style/btn"
         android:id="@+id/btn3"
-        android:text="@string/btnmenu3"/>
+        android:text="@string/btnmenu3"
+        android:onClick="affichage"/>
 
 </LinearLayout>
