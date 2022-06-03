@@ -27,7 +27,9 @@ public class MyDatabase extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
-
+        String sql= "DROP TABLE " + TB_NAME;
+        sqLiteDatabase.execSQL(sql);
+        onCreate(sqLiteDatabase);
     }
     public static long AddSociete(SQLiteDatabase db, Societe e){
         ContentValues c = new ContentValues();
