@@ -17,6 +17,7 @@
         android:textColor="@color/purple_500"></TextView>
     <Button
         style="@style/btn"
+        android:drawableStart="@drawable/forme"
         android:id="@+id/btn1"
         android:text="@string/btnmenu1"
         android:onClick="affichage"/>
@@ -24,10 +25,12 @@
         style="@style/btn"
         android:id="@+id/btn2"
         android:text="@string/btnmenu2"
+        android:drawableStart="@drawable/forme"
         android:onClick="affichage"/>
     <Button
         style="@style/btn"
         android:id="@+id/btn3"
+        android:drawableStart="@drawable/forme"
         android:text="@string/btnmenu3"
         android:onClick="affichage"/>
 

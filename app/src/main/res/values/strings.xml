@@ -3,5 +3,11 @@
     <string name="btnmenu1">Ajouter une societe</string>
     <string name="btnmenu2">Editer une societe</string>
     <string name="btnmenu3">Liste de tous les societes</string>
+    <string name="h1">Tapez le nom de la societe</string>
+    <string name="h2">Tapez le seceteur activite</string>
+    <string name="h3">Tapez le nombre employe</string>
+    <string name="enr">ENREGISTRER</string>
+    <string name="ann">ANNULER</string>
+    <string name="sup">SUPPRIMER</string>
 
 </resources>
