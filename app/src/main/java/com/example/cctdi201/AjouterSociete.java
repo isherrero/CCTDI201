@@ -4,12 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class AjouterSociete extends AppCompatActivity {
     EditText e1,e2,e3;
     MyDatabase db;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +23,7 @@ public class AjouterSociete extends AppCompatActivity {
         e1=findViewById(R.id.e1);
         e2=findViewById(R.id.e2);
         e3=findViewById(R.id.e3);
+        db=new MyDatabase(this);
     }
 
     public void annuler(View view) {

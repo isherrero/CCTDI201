@@ -9,5 +9,6 @@
     <string name="enr">ENREGISTRER</string>
     <string name="ann">ANNULER</string>
     <string name="sup">SUPPRIMER</string>
+    <string name="mod">MODIFIER</string>
 
 </resources>
